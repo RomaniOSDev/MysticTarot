@@ -3,33 +3,89 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 77;
+	objectVersion = 60;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		306969132FACFB9500EF45FD /* DateFormatting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306968DC2FACFB9500EF45FD /* DateFormatting.swift */; };
+		306969142FACFB9500EF45FD /* Color+Tarot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306968DE2FACFB9500EF45FD /* Color+Tarot.swift */; };
+		306969152FACFB9500EF45FD /* TarotChrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306968DF2FACFB9500EF45FD /* TarotChrome.swift */; };
+		306969162FACFB9500EF45FD /* TarotScreenBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306968E02FACFB9500EF45FD /* TarotScreenBackground.swift */; };
+		306969172FACFB9500EF45FD /* AppExternalLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306968E22FACFB9500EF45FD /* AppExternalLink.swift */; };
+		306969182FACFB9500EF45FD /* MinorArcanaTemplates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306968E42FACFB9500EF45FD /* MinorArcanaTemplates.swift */; };
+		306969192FACFB9500EF45FD /* SpreadPositionPresets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306968E52FACFB9500EF45FD /* SpreadPositionPresets.swift */; };
+		3069691A2FACFB9500EF45FD /* TarotModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306968E62FACFB9500EF45FD /* TarotModels.swift */; };
+		3069691B2FACFB9500EF45FD /* MysticTarotViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306968E82FACFB9500EF45FD /* MysticTarotViewModel.swift */; };
+		3069691C2FACFB9500EF45FD /* AddEditCardSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306968EA2FACFB9500EF45FD /* AddEditCardSheet.swift */; };
+		3069691D2FACFB9500EF45FD /* CardMiniature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306968EC2FACFB9500EF45FD /* CardMiniature.swift */; };
+		3069691E2FACFB9500EF45FD /* CardSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306968ED2FACFB9500EF45FD /* CardSectionView.swift */; };
+		3069691F2FACFB9500EF45FD /* JournalRowCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306968EE2FACFB9500EF45FD /* JournalRowCard.swift */; };
+		306969202FACFB9500EF45FD /* SpreadRowCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306968EF2FACFB9500EF45FD /* SpreadRowCard.swift */; };
+		306969212FACFB9500EF45FD /* StatCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306968F02FACFB9500EF45FD /* StatCard.swift */; };
+		306969222FACFB9500EF45FD /* AddCardNoteSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306968F22FACFB9500EF45FD /* AddCardNoteSheet.swift */; };
+		306969232FACFB9500EF45FD /* CardDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306968F32FACFB9500EF45FD /* CardDetailView.swift */; };
+		306969242FACFB9500EF45FD /* CardGalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306968F42FACFB9500EF45FD /* CardGalleryView.swift */; };
+		306969252FACFB9500EF45FD /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306968F62FACFB9500EF45FD /* HomeView.swift */; };
+		306969262FACFB9500EF45FD /* JournalEntrySheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306968F82FACFB9500EF45FD /* JournalEntrySheet.swift */; };
+		306969272FACFB9500EF45FD /* JournalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306968F92FACFB9500EF45FD /* JournalView.swift */; };
+		306969282FACFB9500EF45FD /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306968FB2FACFB9500EF45FD /* OnboardingView.swift */; };
+		306969292FACFB9500EF45FD /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306968FD2FACFB9500EF45FD /* SettingsView.swift */; };
+		3069692A2FACFB9500EF45FD /* SpreadDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306968FF2FACFB9500EF45FD /* SpreadDetailView.swift */; };
+		3069692B2FACFB9500EF45FD /* SpreadEditorSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306969002FACFB9500EF45FD /* SpreadEditorSheet.swift */; };
+		3069692C2FACFB9500EF45FD /* SpreadsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306969012FACFB9500EF45FD /* SpreadsView.swift */; };
+		3069692D2FACFB9500EF45FD /* StatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306969032FACFB9500EF45FD /* StatsView.swift */; };
+		3069692E2FACFB9500EF45FD /* StudyHubView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306969052FACFB9500EF45FD /* StudyHubView.swift */; };
+		3069692F2FACFB9500EF45FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306969082FACFB9500EF45FD /* AppDelegate.swift */; };
+		306969302FACFB9500EF45FD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3069690A2FACFB9500EF45FD /* ContentView.swift */; };
+		306969312FACFB9500EF45FD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306969102FACFB9500EF45FD /* SceneDelegate.swift */; };
+		306969322FACFB9500EF45FD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306969112FACFB9500EF45FD /* ViewController.swift */; };
+		306969332FACFB9500EF45FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 306969092FACFB9500EF45FD /* Assets.xcassets */; };
+		306969352FACFB9500EF45FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3069690D2FACFB9500EF45FD /* LaunchScreen.storyboard */; };
+		306969362FACFB9500EF45FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3069690F2FACFB9500EF45FD /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
+		1B31A0DDE4B1EBD0B377E8CD /* Pods-MysticTarot.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MysticTarot.debug.xcconfig"; path = "Target Support Files/Pods-MysticTarot/Pods-MysticTarot.debug.xcconfig"; sourceTree = "<group>"; };
 		302047EC2FAB9F2D00A1DCA4 /* MysticTarot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MysticTarot.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		306968DC2FACFB9500EF45FD /* DateFormatting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormatting.swift; sourceTree = "<group>"; };
+		306968DE2FACFB9500EF45FD /* Color+Tarot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Tarot.swift"; sourceTree = "<group>"; };
+		306968DF2FACFB9500EF45FD /* TarotChrome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TarotChrome.swift; sourceTree = "<group>"; };
+		306968E02FACFB9500EF45FD /* TarotScreenBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TarotScreenBackground.swift; sourceTree = "<group>"; };
+		306968E22FACFB9500EF45FD /* AppExternalLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppExternalLink.swift; sourceTree = "<group>"; };
+		306968E42FACFB9500EF45FD /* MinorArcanaTemplates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinorArcanaTemplates.swift; sourceTree = "<group>"; };
+		306968E52FACFB9500EF45FD /* SpreadPositionPresets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpreadPositionPresets.swift; sourceTree = "<group>"; };
+		306968E62FACFB9500EF45FD /* TarotModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TarotModels.swift; sourceTree = "<group>"; };
+		306968E82FACFB9500EF45FD /* MysticTarotViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MysticTarotViewModel.swift; sourceTree = "<group>"; };
+		306968EA2FACFB9500EF45FD /* AddEditCardSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEditCardSheet.swift; sourceTree = "<group>"; };
+		306968EC2FACFB9500EF45FD /* CardMiniature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardMiniature.swift; sourceTree = "<group>"; };
+		306968ED2FACFB9500EF45FD /* CardSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardSectionView.swift; sourceTree = "<group>"; };
+		306968EE2FACFB9500EF45FD /* JournalRowCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalRowCard.swift; sourceTree = "<group>"; };
+		306968EF2FACFB9500EF45FD /* SpreadRowCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpreadRowCard.swift; sourceTree = "<group>"; };
+		306968F02FACFB9500EF45FD /* StatCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatCard.swift; sourceTree = "<group>"; };
+		306968F22FACFB9500EF45FD /* AddCardNoteSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCardNoteSheet.swift; sourceTree = "<group>"; };
+		306968F32FACFB9500EF45FD /* CardDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardDetailView.swift; sourceTree = "<group>"; };
+		306968F42FACFB9500EF45FD /* CardGalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardGalleryView.swift; sourceTree = "<group>"; };
+		306968F62FACFB9500EF45FD /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		306968F82FACFB9500EF45FD /* JournalEntrySheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalEntrySheet.swift; sourceTree = "<group>"; };
+		306968F92FACFB9500EF45FD /* JournalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalView.swift; sourceTree = "<group>"; };
+		306968FB2FACFB9500EF45FD /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		306968FD2FACFB9500EF45FD /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		306968FF2FACFB9500EF45FD /* SpreadDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpreadDetailView.swift; sourceTree = "<group>"; };
+		306969002FACFB9500EF45FD /* SpreadEditorSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpreadEditorSheet.swift; sourceTree = "<group>"; };
+		306969012FACFB9500EF45FD /* SpreadsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpreadsView.swift; sourceTree = "<group>"; };
+		306969032FACFB9500EF45FD /* StatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsView.swift; sourceTree = "<group>"; };
+		306969052FACFB9500EF45FD /* StudyHubView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyHubView.swift; sourceTree = "<group>"; };
+		306969082FACFB9500EF45FD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		306969092FACFB9500EF45FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3069690A2FACFB9500EF45FD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3069690B2FACFB9500EF45FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3069690C2FACFB9500EF45FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3069690E2FACFB9500EF45FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		306969102FACFB9500EF45FD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		306969112FACFB9500EF45FD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		447FDE7C7A66685322F23613 /* Pods-MysticTarot.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MysticTarot.release.xcconfig"; path = "Target Support Files/Pods-MysticTarot/Pods-MysticTarot.release.xcconfig"; sourceTree = "<group>"; };
+		5312F009B136568310C4258D /* Pods_MysticTarot.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MysticTarot.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		302047FE2FAB9F2E00A1DCA4 /* Exceptions for "MysticTarot" folder in "MysticTarot" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = 302047EB2FAB9F2D00A1DCA4 /* MysticTarot */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		302047EE2FAB9F2D00A1DCA4 /* MysticTarot */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				302047FE2FAB9F2E00A1DCA4 /* Exceptions for "MysticTarot" folder in "MysticTarot" target */,
-			);
-			path = MysticTarot;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		302047E92FAB9F2D00A1DCA4 /* Frameworks */ = {
@@ -42,11 +98,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		07A2E9BB544B97C57D396981 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1B31A0DDE4B1EBD0B377E8CD /* Pods-MysticTarot.debug.xcconfig */,
+				447FDE7C7A66685322F23613 /* Pods-MysticTarot.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		14517678A79EBC087FBE88EA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5312F009B136568310C4258D /* Pods_MysticTarot.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		302047E32FAB9F2D00A1DCA4 = {
 			isa = PBXGroup;
 			children = (
-				302047EE2FAB9F2D00A1DCA4 /* MysticTarot */,
+				306969122FACFB9500EF45FD /* MysticTarot */,
 				302047ED2FAB9F2D00A1DCA4 /* Products */,
+				07A2E9BB544B97C57D396981 /* Pods */,
+				14517678A79EBC087FBE88EA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +133,177 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		306968DD2FACFB9500EF45FD /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				306968DC2FACFB9500EF45FD /* DateFormatting.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		306968E12FACFB9500EF45FD /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				306968DE2FACFB9500EF45FD /* Color+Tarot.swift */,
+				306968DF2FACFB9500EF45FD /* TarotChrome.swift */,
+				306968E02FACFB9500EF45FD /* TarotScreenBackground.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		306968E32FACFB9500EF45FD /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				306968DD2FACFB9500EF45FD /* Helpers */,
+				306968E12FACFB9500EF45FD /* Theme */,
+				306968E22FACFB9500EF45FD /* AppExternalLink.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		306968E72FACFB9500EF45FD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				306968E42FACFB9500EF45FD /* MinorArcanaTemplates.swift */,
+				306968E52FACFB9500EF45FD /* SpreadPositionPresets.swift */,
+				306968E62FACFB9500EF45FD /* TarotModels.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		306968E92FACFB9500EF45FD /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				306968E82FACFB9500EF45FD /* MysticTarotViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		306968EB2FACFB9500EF45FD /* Cards */ = {
+			isa = PBXGroup;
+			children = (
+				306968EA2FACFB9500EF45FD /* AddEditCardSheet.swift */,
+			);
+			path = Cards;
+			sourceTree = "<group>";
+		};
+		306968F12FACFB9500EF45FD /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				306968EC2FACFB9500EF45FD /* CardMiniature.swift */,
+				306968ED2FACFB9500EF45FD /* CardSectionView.swift */,
+				306968EE2FACFB9500EF45FD /* JournalRowCard.swift */,
+				306968EF2FACFB9500EF45FD /* SpreadRowCard.swift */,
+				306968F02FACFB9500EF45FD /* StatCard.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		306968F52FACFB9500EF45FD /* Gallery */ = {
+			isa = PBXGroup;
+			children = (
+				306968F22FACFB9500EF45FD /* AddCardNoteSheet.swift */,
+				306968F32FACFB9500EF45FD /* CardDetailView.swift */,
+				306968F42FACFB9500EF45FD /* CardGalleryView.swift */,
+			);
+			path = Gallery;
+			sourceTree = "<group>";
+		};
+		306968F72FACFB9500EF45FD /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				306968F62FACFB9500EF45FD /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		306968FA2FACFB9500EF45FD /* Journal */ = {
+			isa = PBXGroup;
+			children = (
+				306968F82FACFB9500EF45FD /* JournalEntrySheet.swift */,
+				306968F92FACFB9500EF45FD /* JournalView.swift */,
+			);
+			path = Journal;
+			sourceTree = "<group>";
+		};
+		306968FC2FACFB9500EF45FD /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				306968FB2FACFB9500EF45FD /* OnboardingView.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		306968FE2FACFB9500EF45FD /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				306968FD2FACFB9500EF45FD /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		306969022FACFB9500EF45FD /* Spreads */ = {
+			isa = PBXGroup;
+			children = (
+				306968FF2FACFB9500EF45FD /* SpreadDetailView.swift */,
+				306969002FACFB9500EF45FD /* SpreadEditorSheet.swift */,
+				306969012FACFB9500EF45FD /* SpreadsView.swift */,
+			);
+			path = Spreads;
+			sourceTree = "<group>";
+		};
+		306969042FACFB9500EF45FD /* Stats */ = {
+			isa = PBXGroup;
+			children = (
+				306969032FACFB9500EF45FD /* StatsView.swift */,
+			);
+			path = Stats;
+			sourceTree = "<group>";
+		};
+		306969062FACFB9500EF45FD /* Study */ = {
+			isa = PBXGroup;
+			children = (
+				306969052FACFB9500EF45FD /* StudyHubView.swift */,
+			);
+			path = Study;
+			sourceTree = "<group>";
+		};
+		306969072FACFB9500EF45FD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				306968EB2FACFB9500EF45FD /* Cards */,
+				306968F12FACFB9500EF45FD /* Components */,
+				306968F52FACFB9500EF45FD /* Gallery */,
+				306968F72FACFB9500EF45FD /* Home */,
+				306968FA2FACFB9500EF45FD /* Journal */,
+				306968FC2FACFB9500EF45FD /* Onboarding */,
+				306968FE2FACFB9500EF45FD /* Settings */,
+				306969022FACFB9500EF45FD /* Spreads */,
+				306969042FACFB9500EF45FD /* Stats */,
+				306969062FACFB9500EF45FD /* Study */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		306969122FACFB9500EF45FD /* MysticTarot */ = {
+			isa = PBXGroup;
+			children = (
+				306968E32FACFB9500EF45FD /* Core */,
+				306968E72FACFB9500EF45FD /* Models */,
+				306968E92FACFB9500EF45FD /* ViewModels */,
+				306969072FACFB9500EF45FD /* Views */,
+				306969082FACFB9500EF45FD /* AppDelegate.swift */,
+				306969092FACFB9500EF45FD /* Assets.xcassets */,
+				3069690A2FACFB9500EF45FD /* ContentView.swift */,
+				3069690B2FACFB9500EF45FD /* Info.plist */,
+				3069690D2FACFB9500EF45FD /* LaunchScreen.storyboard */,
+				3069690F2FACFB9500EF45FD /* Main.storyboard */,
+				306969102FACFB9500EF45FD /* SceneDelegate.swift */,
+				306969112FACFB9500EF45FD /* ViewController.swift */,
+			);
+			path = MysticTarot;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -65,6 +311,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 302047FF2FAB9F2E00A1DCA4 /* Build configuration list for PBXNativeTarget "MysticTarot" */;
 			buildPhases = (
+				26838B49900D1CCEBF14E955 /* [CP] Check Pods Manifest.lock */,
 				302047E82FAB9F2D00A1DCA4 /* Sources */,
 				302047E92FAB9F2D00A1DCA4 /* Frameworks */,
 				302047EA2FAB9F2D00A1DCA4 /* Resources */,
@@ -73,12 +320,7 @@
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				302047EE2FAB9F2D00A1DCA4 /* MysticTarot */,
-			);
 			name = MysticTarot;
-			packageProductDependencies = (
-			);
 			productName = MysticTarot;
 			productReference = 302047EC2FAB9F2D00A1DCA4 /* MysticTarot.app */;
 			productType = "com.apple.product-type.application";
@@ -99,6 +341,7 @@
 				};
 			};
 			buildConfigurationList = 302047E72FAB9F2D00A1DCA4 /* Build configuration list for PBXProject "MysticTarot" */;
+			compatibilityVersion = "Xcode 15.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -106,8 +349,6 @@
 				Base,
 			);
 			mainGroup = 302047E32FAB9F2D00A1DCA4;
-			minimizedProjectReferenceProxies = 1;
-			preferredProjectObjectVersion = 77;
 			productRefGroup = 302047ED2FAB9F2D00A1DCA4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -122,24 +363,104 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				306969332FACFB9500EF45FD /* Assets.xcassets in Resources */,
+				306969352FACFB9500EF45FD /* LaunchScreen.storyboard in Resources */,
+				306969362FACFB9500EF45FD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		26838B49900D1CCEBF14E955 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MysticTarot-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		302047E82FAB9F2D00A1DCA4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				306969132FACFB9500EF45FD /* DateFormatting.swift in Sources */,
+				306969142FACFB9500EF45FD /* Color+Tarot.swift in Sources */,
+				306969152FACFB9500EF45FD /* TarotChrome.swift in Sources */,
+				306969162FACFB9500EF45FD /* TarotScreenBackground.swift in Sources */,
+				306969172FACFB9500EF45FD /* AppExternalLink.swift in Sources */,
+				306969182FACFB9500EF45FD /* MinorArcanaTemplates.swift in Sources */,
+				306969192FACFB9500EF45FD /* SpreadPositionPresets.swift in Sources */,
+				3069691A2FACFB9500EF45FD /* TarotModels.swift in Sources */,
+				3069691B2FACFB9500EF45FD /* MysticTarotViewModel.swift in Sources */,
+				3069691C2FACFB9500EF45FD /* AddEditCardSheet.swift in Sources */,
+				3069691D2FACFB9500EF45FD /* CardMiniature.swift in Sources */,
+				3069691E2FACFB9500EF45FD /* CardSectionView.swift in Sources */,
+				3069691F2FACFB9500EF45FD /* JournalRowCard.swift in Sources */,
+				306969202FACFB9500EF45FD /* SpreadRowCard.swift in Sources */,
+				306969212FACFB9500EF45FD /* StatCard.swift in Sources */,
+				306969222FACFB9500EF45FD /* AddCardNoteSheet.swift in Sources */,
+				306969232FACFB9500EF45FD /* CardDetailView.swift in Sources */,
+				306969242FACFB9500EF45FD /* CardGalleryView.swift in Sources */,
+				306969252FACFB9500EF45FD /* HomeView.swift in Sources */,
+				306969262FACFB9500EF45FD /* JournalEntrySheet.swift in Sources */,
+				306969272FACFB9500EF45FD /* JournalView.swift in Sources */,
+				306969282FACFB9500EF45FD /* OnboardingView.swift in Sources */,
+				306969292FACFB9500EF45FD /* SettingsView.swift in Sources */,
+				3069692A2FACFB9500EF45FD /* SpreadDetailView.swift in Sources */,
+				3069692B2FACFB9500EF45FD /* SpreadEditorSheet.swift in Sources */,
+				3069692C2FACFB9500EF45FD /* SpreadsView.swift in Sources */,
+				3069692D2FACFB9500EF45FD /* StatsView.swift in Sources */,
+				3069692E2FACFB9500EF45FD /* StudyHubView.swift in Sources */,
+				3069692F2FACFB9500EF45FD /* AppDelegate.swift in Sources */,
+				306969302FACFB9500EF45FD /* ContentView.swift in Sources */,
+				306969312FACFB9500EF45FD /* SceneDelegate.swift in Sources */,
+				306969322FACFB9500EF45FD /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXVariantGroup section */
+		3069690D2FACFB9500EF45FD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3069690C2FACFB9500EF45FD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		3069690F2FACFB9500EF45FD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3069690E2FACFB9500EF45FD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
 		302048002FAB9F2E00A1DCA4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B31A0DDE4B1EBD0B377E8CD /* Pods-MysticTarot.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -147,30 +468,37 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MysticTarot/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "HT2: Heart & Tarot";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = home.MysticTarot;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bar.b87gdf7666;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		302048012FAB9F2E00A1DCA4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 447FDE7C7A66685322F23613 /* Pods-MysticTarot.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -178,25 +506,31 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MysticTarot/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "HT2: Heart & Tarot";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = home.MysticTarot;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bar.b87gdf7666;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
